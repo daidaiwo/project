@@ -1,8 +1,8 @@
 #modeb(cause_harm_to(var(nn),var(nn))).
 #modeb(be(var(nn),var(nn))).
 #modeh(cause_harm_to(var(nn),var(nn))).
-#maxv(3)
-#max_penalty(50)
+#maxv(3).
+#max_penalty(50).
 #pos({cause_harm_to(posion,tree)},
 {
 cause_harm_to(poison,robot),
