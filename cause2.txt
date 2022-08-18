@@ -1,0 +1,8 @@
+#modeh(cause_harm_to(var(nn),var(nn))).
+#modeb(cause_harm_to(var(nn),var(nn))).
+#modeb(be(var(nn),var(nn))).
+#maxv(3).
+#max_penalty(50).
+#pos({cause_harm_to(poison,tree)},
+{cause_harm_to(poison,robot),cause_harm_to(poison,house),cause_harm_to(poison,car)},
+{:- be(tree,pollutant). be(blue_spruce,tree). be(bush,tree). be(car,make). be(car,object). be(car,reflective). be(car,reflective_object). be(chevy,car). be(chevy_2000,car). be(dogwood,tree). be(duplex,house). be(elm,tree). be(giant_sequoia,tree). be(home,house). be(house,make). be(log,tree). be(maple,tree). be(oak,tree). be(oak_tree,tree). be(pine,tree). be(red_maple,tree). be(redwood,tree). be(root,house). be(sequoia,tree). be(spruce,tree). be(sycamore,tree). be(tall_bush,tree). be(tree,call). be(tree,dead). be(tree,decrease). be(tree,example). be(tree,fell). be(tree,great_insulator). be(tree,if_locate). be(tree,if_locate_near_sidewalk). be(tree,insulator). be(tree,live). be(tree,live_thing). be(tree,locate). be(tree,nonlive_thing). be(tree,part). be(tree,plant). be(tree,renewable). be(tree,renewable_resource). be(tree,resource). be(tree,source). be(tree,source_of_food_for_animal). be(tree,source_of_food_for_animal_in_ecosystem). be(tree,source_of_food_for_bird). be(tree,source_of_food_for_bird_in_ecosystem). be(tree,such). be(tree,thing). be(tree,when_fell). be(tree,when_fell_without_replacement). cause_harm_to(poison,live_thing). cause_harm_to(poison,thing). }).
