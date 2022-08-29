@@ -1,0 +1,8 @@
+#modeh(be_make_of(var(nn),var(nn))).
+#modeb(be_often_make_of(var(nn),var(nn))).
+#modeb(be(var(nn),var(nn))).
+#maxv(3).
+#max_penalty(50).
+#pos({be_make_of(paper_clip,cobalt)},
+{be_make_of(paper_clip,wood),be_make_of(paper_clip,styrofoam),be_make_of(paper_clip,paper)},
+{be(cobalt,ferromagnetic). be(cobalt,ferromagnetic_metal). be(cobalt,metal). be(deprive_log,wood). be(forest_brush,wood). be(log,wood). be(mahogany,wood). be(matter,paper). be(paper,fold). be(paper,make). be(paper,often_use). be(paper,recyclable). be(paper,relocate). be(paper,use). be(paper_clip,make). be(paper_clip,often_make). be(polypropylene,styrofoam). be(wilderness,wood). be(wood,direct). be(wood,direct_source). be(wood,electrical_energy_insulator). be(wood,energy_insulator). be(wood,object). be(wood,opaque). be(wood,opaque_object). be(wood,renewable). be(wood,renewable_resource). be(wood,resource). be(wood,source). be(wood,thermal). be(wood,thermal_energy_insulator). be(wood,use). be_often_make_of(paper_clip,ferromagnetic_metal). be_often_make_of(paper_clip,metal). }).
